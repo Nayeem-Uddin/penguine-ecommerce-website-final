@@ -1,0 +1,85 @@
+header{
+    background-color: #FFFBF0;
+}
+.nav-list a{
+    margin-right: 2em;
+    font-weight: bold;
+}
+.buy-btn{
+    border: 0;
+    color: white;
+    background-color:#A4BC46;
+    border-radius: 0.5em;
+    height: 55px;
+}
+.btn-icon{
+    width: 20px;
+}
+.card-area{
+    border: 0;
+    border-radius: 1em;
+
+}
+.penguin-card-image{
+
+    height: 350px;
+    background-color:lightgrey;
+    border-radius: 1em;
+    
+}
+.penguin-card-image img{
+    height: 250px;
+    width: 250px;
+}
+.penguin-card-footer{
+    border:0;
+    background-color: white;
+}
+.penguin-card-footer h4{
+    color: #FABE4C;
+    font-weight: bold;
+}
+.last-chart{
+    border: none;
+    border-radius: 1em;
+    
+    
+}
+.upcoming-product{
+    background-color: lightsalmon;
+    border: 0;
+    border-radius: 1em;
+
+}
+.upcoming-img{
+    height: 300px;
+}
+.pay-card{
+    width: 50px;
+    height: 30px;
+    border:1px solid lightgray;
+    border-radius: 0.2em;
+}
+.follow-us-logo{
+    width: 40px;
+    height: 40px;
+    border:0;
+    border-radius:0.2em;
+
+}
+.background-bottom{
+    background-color:lightyellow;
+}
+.fig{
+    float:right;
+}
+@media only screen and (max-width:770px){
+    .habijabi{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .fig{
+        float:left
+    }
+}
+
